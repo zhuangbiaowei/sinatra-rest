@@ -14,7 +14,7 @@ module Sinatra
     # adds restful routes and url helpers for the model
     def rest(model_class, options={}, &block)
       parse_args(model_class, options)
-      read_config('rest/rest.yaml')
+      read_config(options[:rest_template] || 'rest/rest.yaml')
 
       # register model specific helpers
       helpers generate_helpers
