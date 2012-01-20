@@ -11,6 +11,7 @@ Guess what!
 
     * sudo gem source --add http://gems.github.com
     * sudo gem install blindgaenger-sinatra-rest
+    * add some text
 
 
 h2. Usage
