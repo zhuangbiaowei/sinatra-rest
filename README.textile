@@ -9,8 +9,8 @@ h2. Installation
 
 Guess what!
 
-    sudo gem source --add http://gems.github.com
-    sudo gem install blindgaenger-sinatra-rest
+    #sudo gem source --add http://gems.github.com
+    #sudo gem install blindgaenger-sinatra-rest
 
 
 h2. Usage
