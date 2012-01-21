@@ -34,4 +34,12 @@ module ActiveRecord
   end
 end
 
-
+module Sequel
+  class Base
+    class << self
+      def find_by_id(id)
+        [id]
+      end
+    end
+  end
+end
