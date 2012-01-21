@@ -9,10 +9,10 @@ h2. Installation
 
 Guess what!
 
-    * sudo gem source --add http://gems.github.com
-    * sudo gem install blindgaenger-sinatra-rest
-    * add some text
-
+* git clone https://git.teamhost.org/sinatra-rest.git 
+* cd sinatra-rest
+* gem build sinatra-rest.gemspec
+* gem install sinatra-rest-x.x.x.gem
 
 h2. Usage
 
